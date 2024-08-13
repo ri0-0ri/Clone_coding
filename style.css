@@ -1,0 +1,1091 @@
+@font-face {
+    font-family: "HyundaiSansHead";
+    src: url(./font/HyundaiSansHeadOffice-Bold.woff) format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+ul,
+li {
+    list-style: none;
+}
+.clear::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.container{
+    padding: 0 0 160px;
+}
+img {
+    border: none;
+    vertical-align: middle;
+}
+a,
+article,
+div,
+li,
+nav,
+p,
+section,
+ul {
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-image: url(./image/car-bg-w.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+header {
+    padding: 0px 30px;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.inner_wrap {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    margin: 0px 221.5px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#headerlogo {
+    width: 166px;
+    height: 23px;
+}
+
+.lnb ul {
+    justify-content: space-between;
+    display: flex;
+}
+
+.util_wrap .util {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lnb ul li {
+    padding: 20px;
+}
+
+.util div {
+    padding: 10px;
+}
+
+.txt-wrap {
+    position: absolute;
+    top: 152px;
+    left: 7vw;
+    margin: 0px 252px;
+}
+
+.txt-wrap :first-child {
+    font-size: 72px;
+    font-weight: 600;
+}
+
+.txt-wrap :last-child {
+    margin-top: 14px;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.car_image {
+    margin: 0 auto;
+    width: 1360px;
+    height: 380px;
+    margin-top: 340px;
+}
+
+.control-wrap ul {
+    display: flex;
+    justify-content: center;
+}
+
+.control-wrap ul li {
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 27px;
+}
+
+.control-wrap ul :first-child {
+    color: #007fa8;
+}
+.control-wrap ul :last-child {
+    color: #575757;
+}
+.control-wrap ul li {
+    color: rgba(0,0,0,.1);
+}
+
+.items_wrap ul {
+    display: flex;
+    justify-content: center;
+}
+
+.items_wrap {
+    margin-top: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.items_wrap_ul li a img {
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.items_wrap_ul li {
+    display: flex;
+    justify-content: center;
+}
+
+.items_wrap_ul li a {
+    justify-content: center;
+    margin: 20px;
+}
+
+.items_wrap_ul li a span {
+    width: 50px;
+    height: 15px;
+    color: black;
+}
+
+/* 모델 */
+.section1 {
+    height: 745px;
+    padding: 140px 0px 0px;
+}
+
+.model_title {
+    text-align: center;
+}
+
+.model_top p {
+    font-size: 44px;
+    font-weight: 800;
+    line-height: 58px;
+}
+
+.model_bottom {
+    margin-top: 30px;
+}
+
+.model_bottom p {
+    font-size: 16px;
+    color: #666;
+    line-height: 34px;
+}
+
+.model {
+    margin: 0px 140px;
+    display: flex;
+    justify-content: center;
+    margin-top: 51px;
+}
+.rank ul {
+    display: flex;
+    padding-bottom: 30px;
+}
+.rank1 {
+    margin-right: 40px;   
+}
+#p {
+    position: absolute;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #007fa8;
+    color: #fff;
+}
+.rank ul li{
+    margin-right: 20px;
+    font-weight: 550;
+    color: #666;
+}
+.rank ul :first-child{
+    color: #007fa8;
+    font-size: 16px;
+    margin-left: 20px;
+}
+#newSan{
+    font-size: 35px;
+    font-weight: 800;
+    padding-bottom: 80px;
+    margin-left: 20px;
+}
+.aside_img{
+    display: flex;
+    align-items: center;
+}
+.rank2 img{
+    width: 224px;
+    height: 168px;
+}
+.rank3 img{
+    width: 224px;
+    height: 168px;
+}
+#grand{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 15px;
+}
+#avante{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 15px;
+}
+.rank2{
+    margin: 30px;
+}
+
+/* 전기차 */
+.section2 {
+    margin: 0px 131.5px;
+    padding: 140px 0px 0px;
+}
+.elec_title {
+    text-align: center;
+}
+.elec_top p{
+    font-size: 44px;
+    font-weight: 800;
+    line-height: 58px;
+}
+.elec_bottom {
+    margin-top: 30px;
+}
+.elec_bottom p {
+    font-size: 16px;
+    color: #666;
+    line-height: 34px;
+}
+.elec {
+    margin: 60px 230px 0px;
+    padding: 0px 30px;
+}
+.elec_wrap{
+    margin: 50px 0px 0px;
+    display: flex;
+    gap: 32px;
+}
+.evtxt{
+    position: absolute;
+    padding: 40px;
+}
+.evtxt h3{
+    font-size: 28px;
+}
+.evtxt p{
+    color: #666;
+    padding: 15px 0px;
+    font-weight: 550;
+}
+.evtxt a{
+    color: #002c5f;
+    font-weight: 600;
+}
+.network{
+    background-color: #f6f3f2;
+    padding: 35px 40px 37px;
+    display: flex;
+}
+.network_img img{
+    width: 180px;
+    height: 90px;
+    position: absolute;
+    margin: 24px 0px 0px 15px;
+}
+.network_txt h3{
+    font-size: 23px;
+}
+.network_txt p{
+    font-size: 15px;
+    color: #666;
+    margin: 10px 0px 0px;
+    font-weight: 550;
+}
+.network_txt ul{
+    display: flex;
+    margin: 34px 0px 0px;
+}
+.network_txt ul li{
+    color: #002c5f;
+    font-weight: 600;
+}
+#lines{
+    color: #999;
+    padding: 0px 21px 0px 0px;
+    margin: 0px 0px 0px 22px;
+}
+.ION{
+    background-color: #f5f5f5;
+    padding: 40px 30px 0px;
+}
+.ION_title p{
+    height: 37px;
+    line-height: 37px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+.ION_img img{
+    width: 292px;
+    height: 156.22px;
+    margin: 10px 0px 0px;
+}
+.ION_info{
+    margin: 15px 0px 0px;
+}
+.ION_price{
+    display: flex;
+}
+.ION_elecprice{
+    margin-top: 13px;
+    display: flex;
+}
+.ION_trim{
+    margin-top: 13px;
+    display: flex;
+}
+.ION_info strong{
+    width: 40%;
+    font-weight: 600;
+    text-align: left;
+}
+.ION_info p{
+    font-size: 15px;
+    width: 60%;
+    font-weight: 550;
+    text-align: right;
+    color: #666;
+}
+.make_mycar{
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+}
+.make_mycar p{
+    padding: 10px 20px;
+    background: #002c5f;
+    color: #fff;
+    font-weight: 600;
+    width: 180px;
+    height: 50px;
+    text-align: center;
+}
+.ION_circle{
+    display: flex;
+    justify-content: center;
+}
+.ION_circle ul{
+    display: flex;
+    margin-top: 17px;
+}
+.ION_circle ul :first-child{
+    color: #007fa8;
+}
+.ION_circle ul li{
+    font-size: 30px;
+    padding: 3px;
+    color: rgba(0, 0, 0, .1);
+}
+
+/* 트렌디 현대 */
+.section3 {
+    padding: 140px 0px 0px;
+}
+.trendy_title {
+    text-align: center;
+}
+.trendy_top p{
+    font-size: 44px;
+    font-weight: 800;
+    line-height: 58px;
+}
+.trendy_bottom {
+    margin-top: 30px;
+}
+.trendy_bottom p {
+    font-size: 16px;
+    color: #666;
+    line-height: 34px;
+}
+.trendy_wrap{
+    margin: 60px 361.500px 0px;
+    padding: 0px 30px;
+    display: flex;
+}
+.trendy_info{
+    width: 100%;
+    padding: 52px 60px 0;
+    background: #f6f3f2;
+    text-align: left;
+}
+.trendy_info_top{
+    display: flex;
+    font-size: 30px;
+
+}
+#trendy_p{
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 30px;
+}
+.moreview{
+    margin-top: 50px;
+}
+#moreview{
+    background: #002c5f;
+    color: #fff;
+    text-align: center;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+}
+
+/* 현대숍 */
+.section4 {
+    padding: 140px 0px 0px;
+}
+.shop_title {
+    text-align: center;
+}
+.shop_top p{
+    font-size: 44px;
+    font-weight: 800;
+    line-height: 58px;
+}
+.shop_bottom {
+    margin-top: 30px;
+}
+.shop_bottom p {
+    font-size: 16px;
+    color: #666;
+    line-height: 34px;
+}
+.shop_wrap{
+    margin: 60px 361.500px 0px;
+    padding: 0px 30px;
+}
+    /* 위 */
+.shop_img_top{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 51px;
+}
+.shop_img_top li{
+    margin-left: 30px;
+}
+.shop_img_top img{
+    width: 352px;
+}
+.shop_wrap ul li{
+    position: relative;
+}
+.shop_img_top li div:last-child {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 9px 0 10px 20px;
+    background: rgba(0,0,0,.5);
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+    /* 아래 */
+.shop_img_bottom{
+    display: flex;
+    margin-top: 40px;
+    text-align: left;
+    max-height: 288px;
+}
+.shop_img_bottom img{
+    width: 190px;
+    height: 190px;
+}
+.shop_best_info{
+    padding: 40px 30px 0px;
+    background: #f6f3f2;
+    position: relative;
+    min-width: 224px;
+}
+.shop_best_info h3{
+    font-size: 22px;
+}
+#good{
+    margin-top: 14px;
+    color: #666;
+    line-height: 30px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.shop_best_info a{
+    position: absolute;
+    top: 164px;
+    color: #002c5f;
+    line-height: 30px;
+    font-weight: 600;
+}
+.shop_best_info a{
+    display: flex;
+    align-items: center;
+}
+#moreview_button{
+    width: 13px;
+    height: 13px;
+    background: url(./image/ico_btn.png) no-repeat;
+    background-position: 0-19px;
+    margin-left: 6px;
+}
+.best_ul{
+    display: flex;
+}
+.best_ul li{
+    width: 25%;
+    margin-left: 32px;
+}
+.shop_best1_img{
+    display: flex;
+}
+#shop_ranking{
+    position: absolute;
+    text-align: center;
+    line-height: 35px;
+    width: 34px;
+    height: 34px;
+    background: #007fa8;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+.best_ul li div img{
+    border: 1px solid #e5e5e5;
+}
+.shop_best_txt {
+    margin-top: 15px;
+    line-height: 26px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.shop_best_price{
+    display: flex;
+    margin-top: 4px;
+    line-height: 26px;
+}
+.discount {
+    color: #e63312;
+    font-weight: 600;
+
+}
+.price strong{
+    margin: 0px 5px;
+    font-size: 21px;
+}
+.price{
+    font-weight: 600;
+}
+
+/* 브랜드 캠페인 */
+.section5 {
+    padding: 140px 0px 0px;
+}
+.brand_title {
+    text-align: center;
+}
+.brand_top p{
+    font-size: 44px;
+    font-weight: 800;
+    line-height: 58px;
+}
+.brand_bottom {
+    margin-top: 30px;
+}
+.brand_bottom p {
+    font-size: 16px;
+    color: #666;
+    line-height: 34px;
+}
+
+.brand_wrap{
+    margin: 60px auto 0;
+    padding: 0px 30px;
+    max-width: 1180px;
+    height: 400px;
+}
+.img_list{
+    margin: 51px 0 0;
+    height: 100%;
+}
+.img_list ul{
+    max-width: 1120px;
+    height: 100%;
+    display: flex;
+    gap: 2.86%;
+}
+.img_list ul li{
+    position: relative;
+}
+.img_list ul li img{
+    width: 100%;
+    height: 100%;
+}
+
+/* 이벤트 */
+.section6 {
+    padding: 140px 0px 0px;
+}
+.event_title {
+    text-align: center;
+}
+.event_top p{
+    font-size: 44px;
+    font-weight: 800;
+    line-height: 58px;
+}
+.event_bottom {
+    margin-top: 30px;
+}
+.event_bottom p {
+    font-size: 16px;
+    color: #666;
+    line-height: 34px;
+}
+
+.event_wrap{
+    margin: 60px auto 0;
+    padding: 0px 30px;
+    max-width: 1700px;
+}
+.event_list{
+    width: 100%;
+    height: 100%;
+}
+.event_list ul{
+    display: flex;
+    gap: 2.43%;
+}
+.event_list ul li{
+    text-align: left;
+}
+.event_list ul li img{
+    width: 100%;
+}
+.event_list ul li h3{
+    margin-top: 28px;
+    font-size: 22px;
+}
+#event_p{
+    margin-top: 10px;
+    margin-bottom: 22px;
+    color: #666;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 600;
+}
+#event_date{
+    margin-top: auto;
+    color: #666;
+    font-weight: 550;
+}
+.event_circle{
+    margin-top: 45px;
+}
+.event_circle ul{
+    display: flex;
+    justify-content: center;
+}
+.event_circle ul li{
+    margin-right: 4px;
+    padding: 12px 4px;
+}
+.event_circle ul li:first-child p{
+    width: 12px;
+    height: 12px;
+    background-color: #007fa8;
+    border-radius: 6px;
+    color: transparent;
+}
+.event_circle ul li:last-child p{
+    width: 12px;
+    height: 12px;
+    background-color: rgba(0,0,0,.1);
+    border-radius: 6px;
+    color: transparent;
+}
+
+/* 현대자동차 소식 */
+.section7 {
+    padding: 140px 0px 0px;
+}
+.news_title {
+    text-align: center;
+}
+.news_top p{
+    font-size: 44px;
+    font-weight: 800;
+    line-height: 58px;
+}
+.news_bottom{
+    max-width: 1120px;
+    margin: 48px auto -6px;
+    display: flex;
+    justify-content: center;
+}
+.news_bottom div:first-child{
+    padding: 0 13px;
+    margin: 0 6px 6px 0;
+    background-color: #007fa8;
+    position: relative;
+    width: auto;
+    height: 30px;
+    border-radius: 15px;
+    line-height: 29px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+.news_bottom div{
+    padding: 0 13px;
+    margin: 0 6px 6px 0;
+    background-color: #f6f3f2;
+    position: relative;
+    width: auto;
+    height: 30px;
+    border-radius: 15px;
+    line-height: 29px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.news_wrap{
+    max-width: 1180px;
+    padding: 0px 30px;
+    margin: 60px auto 0;
+}
+.news_list{
+    display: flex;
+    gap: 1px;
+}
+.box_news{
+    width: 100%;
+    position: relative;
+}
+.news_list div{
+    position: relative;
+    border-bottom: 1px solid #fff;
+}
+.box_news p{
+    position: absolute;
+    min-width: 59px;
+    text-align: center;
+    top: 30px;
+    left: 30px;
+    height: 30px;
+    color: #fff;
+    background: rgba(0,0,0,.5);
+    border-radius: 15px;
+    line-height: 32px;
+    padding:  0 13px;
+    margin: 0 6px 6px 0;
+    font-weight: 600;
+    font-size: 13px;
+    z-index: 1;
+}
+
+#news1{
+    background-image: url(./image/hqdefault\ \(4\).jpg);
+    position: relative;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    padding-bottom: 100%;
+}
+#news2{
+    background-image: url(./image/hqdefault\ \(5\).jpg);
+    position: relative;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    padding-bottom: 100%;
+}
+#news3{
+    background-image: url(./image/hqdefault\ \(6\).jpg);
+    position: relative;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    padding-bottom: 100%;
+}
+#news4{
+    background-image: url(./image/hqdefault\ \(7\).jpg);
+    position: relative;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    padding-bottom: 100%;
+} 
+
+/* 푸터 */
+.foot_top{
+    padding: 30px 30px 0;
+    background: #f6f3f2;
+}
+.foot_top_wrap{
+    max-width: 1120px;
+    margin: 0 auto;
+    border: 1px solid #e4dcd3;
+    background-color: #fff;
+    border-radius: 20px 20px 0 0;
+}
+.foot_top_info{
+    padding: 24px 50px 21px;
+}
+.foot_top_info h3{
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 24px;
+}
+.foot_bottom_info{
+    display: flex;
+    margin: 5px 0 0;
+    padding: 0 15px 30px;
+}
+.info_category{
+    border-right: 1px solid #e5e5e5;
+    width: 33.333%;
+    padding: 0 35px;
+}
+.foot_bottom_info div:last-child{
+    border-right: none;
+}
+.info_category dt{
+    margin-bottom: 12px;
+    font-size: 15px;
+    font-weight: 900;
+    color: #002c5f;
+}
+.info_mini{
+    display: flex;
+    flex-wrap: wrap;
+}
+.info_mini dd{
+    font-size: 14px;
+    font-weight: 600;
+    width: 145px;
+    padding: 10px 0;
+}
+#foot_info_icon{
+    content: "";
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    background-image: url(./image/ico_btn.png);
+    background-position: -36px -22px;
+    margin-left: 6px;
+}
+.footer{
+    position: relative;
+    padding: 60px 50px;
+    background-color: #1c1b1b;
+    font-size: 13px;
+    color: #999;
+}
+.footer_wrap{
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+}
+.footer_logo{
+    float: left;
+}
+.footer_menu{
+    float: left;
+    margin-left: 80px;
+}
+.footer_menu ul{
+    margin: -20px 0 0 -28px;
+    padding-bottom: 20px;
+}
+.footer_menu ul li{
+    display: flex;
+    margin-top: 20px;
+}
+.footer_menu ul li a{
+    color: #999;
+}
+.footer_border{
+    margin: 0 13px;
+    border-left: solid 1px #444;
+    height: 10px;  
+}
+.footer_menu ul li p{
+    width: 1px;
+    /* height: 10px; */
+    align-items: center;
+    margin: 0 13px;
+    background-color: #444;
+}
+#secret_p{
+    margin: 0 14px;
+    background: none;
+}
+#li_top{
+    float: left;
+}
+
+#li_bottom1{
+    clear: both;
+    float: left;
+}
+#li_bottom{
+    float: left;
+}
+.footer_menu ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.footer_menu p{
+    clear: both;
+}
+#footer_tel{
+    margin-bottom: 10px;
+}
+.footer_menu :last-child{
+    font-size: 12px;
+}
+
+.footer_site{
+    float: right;
+}
+.footer_site ul{
+    margin-bottom: 12px;
+}
+.footer_site ul li{
+    float: left;
+    background: url(./image/ico_social.png) no-repeat;
+    background-size: 100%;
+    margin-left: 10px;
+}
+.footer_site ul li a{
+    display: block;
+    width: 30px;
+    height: 32px;
+    background-color: transparent;
+}
+.footer_site ul li.youtube{
+    background-position: 0 -30px;
+}
+.footer_site ul li.instagram{
+    background-position: 0 -150px;
+}
+.footer_site ul li.facebook{
+    background-position: 0 0;
+}
+.footer_site ul li.twitter{
+    background-position: 0 -120px;
+}
+.footer_site ul li.naverpost{
+    background-position: 0 -90px;
+}
+.footer_site ul li.cv-youtube{
+    background-position: 0 -180px;
+}
+.footer_site ul li.cv-naverpost{
+    background-position: 0 -210px;
+}
+.footer_site ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.family_site{
+    position: relative;
+}
+#site_button{
+    width: 100%;
+    height: 30px;
+    padding: 0 13px;
+    border: 1px solid #676767;
+    text-align: left;
+    color: #999;
+    background-color: #1c1b1b;
+}
+.footer .footer_top::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.footer .footer_top .footer_site .family_site button ::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 1em;
+    margin-top: -2px;
+    border: 4px solid transparent;
+    border-top-color: #676767;
+}
+.footer_bottom{
+    margin-top: 40px;
+    padding-top: 22px;
+    border-top: 1px solid #2a2a2a;
+}
+.footer_bottom ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer_bottom ul li{
+    float: left;
+    width: 25%;
+    margin-top: 18px;
+    word-break: keep-all;
+}
+.footer_bottom ul li img{
+    float: left;
+}
+.footer_bottom ul li p{
+    display: block;
+    line-height: 18px;
+    margin-left: 45px;
+    margin-right: 10px;
+    font-size: 12px;
+}
+.footer .footer_bottom ul li::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.footer .footer_bottom ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
